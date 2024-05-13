@@ -85,12 +85,29 @@
 #     print("Porfavor apresente um documento do responsavel")
 # print("#####################################################")
 
-#While 
+# #While  = Laço de repetição enquanto
 
-a = 1:
+# a = 1
 
-while a < 10;
-    print (" ")
+# while a <= 10:
+#     print("teste")
+#     a = a + 1
 
+# FOR 
 
+# a =["Lucio", "Pedro", "Luciano", "Alinne"]
+# for a in a:
+#     print(a)
 
+# a = "Descomplica"
+
+# for a in a:
+#     print (a)
+
+a = []
+b = 1
+
+while b <= 3:
+    a.append(input("Digite um nome de Aluno: "))
+    b = b + 1
+print(a) #append eu vou adicionar ao final da minha lista um novo item

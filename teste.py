@@ -85,6 +85,12 @@
 #     print("Porfavor apresente um documento do responsavel")
 # print("#####################################################")
 
+#While 
+
+a = 1:
+
+while a < 10;
+    print (" ")
 
 
 

@@ -75,15 +75,16 @@
 # se for, pede o titulo de eleitor dele
 # senão, pede um documento do responsavel.
 
-print("#####################################################")
-nasc = int(input("Digite seu ano de nascimento: "))
-anoatual = int(input("Digite o ano atual: "))
-idade = (anoatual-nasc)
-if idade >= 16:
-    print("Porfavor apresente o título")
-else:
-    print("Porfavor apresente um documento do responsavel")
-print("#####################################################")
+# print("#####################################################")
+# nasc = int(input("Digite seu ano de nascimento: "))
+# anoatual = int(input("Digite o ano atual: "))
+# idade = (anoatual-nasc)
+# if idade >= 16:
+#     print("Porfavor apresente o título")
+# else:
+#     print("Porfavor apresente um documento do responsavel")
+# print("#####################################################")
+
 
 
 

@@ -127,4 +127,12 @@
 # Se a mmédia atingida for maior ou igual a 6, escrever: 
 # Aluno X, voce foi aprovado. Seu diploma terá os seguintes dados:
 # listar todos os dados daquele aluno
-# Caso a média seja inferior a 6, lançar um nota adicional
+# Caso a média seja inferior a 6, lançar um nota adicional tirar nova média:
+
+print ("########################## RESULTADO #########################")
+
+nome = []
+cpf = []
+email = []
+matricula = []
+

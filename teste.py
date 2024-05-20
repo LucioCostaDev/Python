@@ -129,10 +129,44 @@
 # listar todos os dados daquele aluno
 # Caso a média seja inferior a 6, lançar um nota adicional tirar nova média:
 
-print ("########################## RESULTADO #########################")
+# print ("########################## CONTROLE DE APROVAÇÃO#########################")
 
-nome = []
-cpf = []
-email = []
-matricula = []
+# nome = []
+# cpf = []
+# email = []
+# matricula = []
+# nota1 = []
+# nota2 = []
+# nota3 = []
 
+# def soma():
+#     txt = "Olá Mundo!"
+#     return txt
+
+
+# FUNÇÕES EM PYTHON
+# print(soma())
+
+# def soma(a, b):
+#     c = a + b
+#     return c
+# print(soma(4,9))
+
+# def soma(a, b, c):
+#          x = a + b + c
+#          if x % 2 == 0:
+#                  return "Par"
+#          else:
+#                  return "Impar"
+
+# print(soma(4,2,10))
+# print(soma(4,3,10))
+# print(soma(1,2,10))
+# print(soma(5,2,10))
+
+# FUNCÃO RECURSIVA
+
+# FATORIAL
+# 5! = 5 * 4 * 3 * 2 * 1 = 120
+
+ 

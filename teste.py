@@ -170,3 +170,16 @@
 # 5! = 5 * 4 * 3 * 2 * 1 = 120
 
  
+# def fatorial (n):
+#     if n == 1:
+#         return 1
+#     return n * fatorial (n - 1)
+
+# print(fatorial(4))
+
+# DESAFIO 1: Fazer o sistema de verificação de maioridade 
+# Usando funções 
+# DESAFIO 2: fazer uma contagem de 0 a 10 usando recursão 
+# Fazer a mesma contagem em ordem descrescente
+
+

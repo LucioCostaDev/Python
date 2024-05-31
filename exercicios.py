@@ -53,3 +53,15 @@ elif resp1 == "n":
     print("Obrigado até a proxima!")
 else:
     print("Resposta inválida. tente novamente.")
+idade = input("Qual sua idade:")
+if idade >= 18:
+    print("Voce e de maior")
+else:
+    print("Voce e de Menor, precisa de um resposavél")
+ident = input("Digite seu numero de identidade: ")
+cpf = input("Digite seu numero de CPF: ")
+print("%s sua idade e %d, com identidade: %d e CPF: %d " %(nome,idade,ident,cpf))
+
+
+
+

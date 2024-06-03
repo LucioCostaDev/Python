@@ -182,4 +182,7 @@
 # DESAFIO 2: fazer uma contagem de 0 a 10 usando recursão 
 # Fazer a mesma contagem em ordem descrescente
 
+def f(a,b,c):
+v = a * b * c
 
+# print(f(1,2,3))

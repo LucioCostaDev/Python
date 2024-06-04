@@ -54,13 +54,17 @@ elif resp1 == "n":
 else:
     print("Resposta inválida. tente novamente.")
 idade = input("Qual sua idade:")
-if idade >= 18:
+if idade >= "18":
     print("Voce e de maior")
 else:
     print("Voce e de Menor, precisa de um resposavél")
 ident = input("Digite seu numero de identidade: ")
 cpf = input("Digite seu numero de CPF: ")
-print("%s sua idade e %d, com identidade: %d e CPF: %d " %(nome,idade,ident,cpf))
+print(f"Seu nome:{nome}, Identidade: {ident}, CPF: {cpf}, esta de acordo ou quer alterar? S-sim ou N-não")
+if resp1 == "s":
+    print("Vamos fazer algumas perguntas")
+else:
+    print("Vamos retorna para alterar")
 
 
 

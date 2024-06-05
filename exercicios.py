@@ -77,8 +77,24 @@
 # # Impressão do resultado
 # print("Soma:", soma) 
 
+# # Elaborar um programa Python para somar os digitos de uma número menor que 100.
+# # Somar os dígitos de um número menor que 100 
+# numero = int(input("Digite um numero menor que 100: "))
+# if numero >= 100:
+#     print("O número deve ser menor que 100.")
+# else:
+#     dezena = numero // 10 # declaração de uma variavel em dezena, realizando uma divisão inteira // ignora a parte fracionaria do resultado
+#     unidade = numero % 10 # declaração de uma unidade, realizando uma divisão de resto de um numero
+#     soma = dezena + unidade # declaração no qual vai ser realizado a soma 
+#     print("Soma: ", soma)
 
-
+# Elaborar um programa Python para imprimir os divisores de uma número.
+# Calcular os divisores de um número 
+n = int(input("digite um número: "))
+print("Os divisores de", n, "são:")
+for i in range(1, n + 1):
+    if n % i ==0:
+        print(i,end=" ")
 
 
 

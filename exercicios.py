@@ -41,30 +41,44 @@
 # print=('O número é {dig:.1f}')
 
 # Estruturas de Repetição
-print ("#############################################################")
-print("Olá seja bem vindo")
-nome = input("Qual seu nome:")
-print("Olá %s seja bem vindo!" % (nome))
-print("Precisamos de mais dados você quer continuar? S(sim) ou N(náo)")
-resp1 = input("Qual sua resposta? ")
-if resp1 == "s":
-    print("Seguiremos para o cadastro.")
-elif resp1 == "n":
-    print("Obrigado até a proxima!")
-else:
-    print("Resposta inválida. tente novamente.")
-idade = input("Qual sua idade:")
-if idade >= "18":
-    print("Voce e de maior")
-else:
-    print("Voce e de Menor, precisa de um resposavél")
-ident = input("Digite seu numero de identidade: ")
-cpf = input("Digite seu numero de CPF: ")
-print(f"Seu nome:{nome}, Identidade: {ident}, CPF: {cpf}, esta de acordo ou quer alterar? S-sim ou N-não")
-if resp1 == "s":
-    print("Vamos fazer algumas perguntas")
-else:
-    print("Vamos retorna para alterar")
+# print ("#############################################################")
+# print("Olá seja bem vindo")
+# nome = input("Qual seu nome:")
+# print("Olá %s seja bem vindo!" % (nome))
+# print("Precisamos de mais dados você quer continuar? S(sim) ou N(náo)")
+# resp1 = input("Qual sua resposta? ")
+# if resp1 == "s":
+#     print("Seguiremos para o cadastro.")
+# elif resp1 == "n":
+#     print("Obrigado até a proxima!")
+# else:
+#     print("Resposta inválida. tente novamente.")
+# idade = input("Qual sua idade:")
+# if idade >= "18":
+#     print("Você e maior de idade")
+# else:
+#     print("Você e Menor de idade, precisa de um resposavél")
+# ident = input("Digite seu numero de identidade: ")
+# cpf = input("Digite seu numero de CPF: ")
+# print(f"Seu nome:{nome}, Identidade: {ident}, CPF: {cpf}, esta de acordo ou quer alterar? S-sim ou N-não")
+# if resp1 == "s":
+#     print("Vamos continuar")
+# else:
+#     print("Vamos retorna para alterar")
+
+# # ############################################# EXERCICIOS ###################################################
+# # Elaborar um progrma Python para somar dois números 
+# # somar dois numeros inteiros 
+# # Entrada dos dados 
+# n1 = int(input("Digite um primeiro número: "))
+# n2 = int(input("Digite um segundo número: "))
+# # processamento dos dados
+# soma = n1 + n2
+# # Impressão do resultado
+# print("Soma:", soma) 
+
+
+
 
 
 

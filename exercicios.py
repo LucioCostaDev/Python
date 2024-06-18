@@ -88,13 +88,31 @@
 #     soma = dezena + unidade # declaração no qual vai ser realizado a soma 
 #     print("Soma: ", soma)
 
-# Elaborar um programa Python para imprimir os divisores de uma número.
-# Calcular os divisores de um número 
-n = int(input("digite um número: "))
-print("Os divisores de", n, "são:")
-for i in range(1, n + 1):
-    if n % i ==0:
-        print(i,end=" ")
+# Imprimir um programa Python para calcular a área de um triângulo 
+# Calcular a área de um triângulo
+
+# base = float(input("Digite a base do triângulo: "))
+# altura = float(input("Digite a altura do triângulo: "))
+# area = (base * altura) / 2
+# print("Área:", area)
+
+# # Elaborar um programa Python para imprimir os divisores de uma número.
+# # Calcular os divisores de um número 
+# n = int(input("digite um número: "))
+# print("Os divisores de", n, "são:")
+# for i in range(1, n + 1):
+#     if n % i ==0:
+#         print(i,end=" ")
+
+# Elaborar um programa Python para verificar se um numero é par ou impar.
+# Verificar se um número é par ou ímpar
+n = int(input("Digite um número:"))
+if n % 2 == 0:
+    print("Par")
+else:
+    print("Impar")
+
+
 
 
 

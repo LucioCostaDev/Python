@@ -23,3 +23,7 @@
 # aumento = 15
 # print(salario + (salario * aumento / 100))
 
+nome = "João"
+idade = 22
+grana = 51.34
+print"{} tem {} anos e R${} no bolso." .fomart(nome, idade, grana)

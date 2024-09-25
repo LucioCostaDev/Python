@@ -10,3 +10,5 @@
 # int2 =  int(input("Digite um  segundo número inteiro: "))
 # soma = int1 + int2
 # print("A soma dos dois números inteiros é:", soma)
+
+""" Comentários multilinhas"""

@@ -95,8 +95,23 @@
 # nomeFormatado = f"{primeiroNome} {segundoNome}"
 # print(nomeFormatado)
 
-# Exerciocios2
-texto = "Python é muito interessante"
-palavras = texto.split()
-textoInvertido = " ".join(palavras[::-1])
-print(textoInvertido)
+# # Exerciocios2
+# texto = "Python é muito interessante"
+# palavras = texto.split()
+# textoInvertido = " ".join(palavras[::-1])
+# print(textoInvertido)
+
+# #  exercio palindromo e quando a palavra e igual tanto lendo de frente para tras como de tras para frente
+# texto1 = "arara"
+# texto2 = "python"
+
+# # aqui a formatação vai diminuir e tirar os espaços
+# texto1_format = texto1.lower().replace(" ","")
+# texto2_format = texto2.lower().replace(" ","")
+
+# # verificar se texto original e igual ao seu reverso
+# palindromo1 = texto1_format == texto1[::-1]
+# palindromo2 = texto2_format == texto2[::-1]
+
+# print(palindromo1)
+# print(palindromo2)

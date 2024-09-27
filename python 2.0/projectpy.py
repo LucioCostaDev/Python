@@ -46,29 +46,57 @@
 # print("Matrix" in descFilmes)
 # print("Filmes" in descFilmes)
 
-Filme = "Homem Aranha"
+# filme = "Homem Aranha"
 
-# 1- buscar toda string a apartir da primeira posição
-print(filme[0:])
+# # 1- buscar toda string a apartir da primeira posição
+# print(filme[0:])
 
-# 2- buscar toda string até a última posição 
-print(filme[:7])
+# # 2- buscar toda string até a última posição 
+# print(filme[:7])
 
-# 3- buscar toda string da terceira até a última posição 
-print(filme[2:])
+# # 3- buscar toda string da terceira até a última posição 
+# print(filme[2:])
 
-"""
-String[inicio:fim:passo]
-indice começa na posição 0 | indice final - 1
-passo - dertermina o incremento. Por padrão esse número é o 1.
+# """
+# String[inicio:fim:passo]
+# indice começa na posição 0 | indice final - 1
+# passo - dertermina o incremento. Por padrão esse número é o 1.
 
-"""
+# """
 
-#  4-  Buscar toda a string de 2 em 2 caracteres
-print(filme[::2])
+# #  4-  Buscar toda a string de 2 em 2 caracteres
+# print(filme[::2])
 
-# 5- Buscar toda a string nos índices ímpares
-print(filme[1::2])
+# # 5- Buscar toda a string nos índices ímpares
+# print(filme[1::2])
 
-# 6- Inverter uma string de trás para frente
-print(Filme[::-1])
+# # 6- Inverter uma string de trás para frente
+# print(filme[::-1])
+
+# movieName = "Homem Aranha"
+# movieDescription = """
+# Homen Aranha, e um filme de super heroi que ganho poder, através de uma picada de aranha"""
+
+# print(movieName.upper()) # tudo maiusculo
+# print(movieName.lower()) # tudo minusculo
+# print(movieName.capitalize()) # Primeira Letra maiuscula
+# print(movieName.title()) # Primeira Letra Maiuscula
+# print(movieName.center(10, '-')) #Retorna string centralizada com caractere de preenchimento
+# print(movieName.find("u")) # Retorna a posição de um determinado caractere
+# print(movieName.find("o")) # conta caracteres
+# print(movieName.replace("Homem", "Spider")) # troca caracteres
+# print(movieDescription.split(',')) # coloca em uma estrutura python
+
+# # Exercicios
+
+# primeiroNome = input("Digite o nome:\n")
+# segundoNome = input("Digite o sobrenome:\n")
+
+# nomeFormatado = f"{primeiroNome} {segundoNome}"
+# print(nomeFormatado)
+
+# Exerciocios2
+texto = "Python é muito interessante"
+palavras = texto.split()
+textoInvertido = " ".join(palavras[::-1])
+print(textoInvertido)

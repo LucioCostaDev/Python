@@ -135,4 +135,29 @@
 # #  4 - Buscar filmes de uma posição em diante
 # print(filmList[1:4])
 
-filmList = ["Star Wars", "Marvel", "Rei Leão", "Alladim"]
+# # METODOS 
+# filmList = ["Star Wars", "Marvel", "Rei Leão", "Alladim"]
+
+# # 1 - TAMANHO DA LISTA
+# print(len(filmList))
+
+# # 2 - recuperar um item da lista pelo nome (mostra o indice a qual o filme está)
+# print(filmList.index("Marvel"))
+
+# # 3 - adicionar item ao final do filme (add a lista um conteudo ao final da lista)
+# filmList.append("Matrix")
+# print(filmList)
+
+# # 4 - Ordenar a lista de acordo com alfabeto
+# filmList.sort()
+# print(filmList)
+
+# # 5 - Copiar os itens de uma lista para outra e remove um item da lista
+# filmListCopy = filmList.copy()
+# filmListCopy.remove("Matrix")
+# print(filmListCopy)
+
+# # 6 - remove todos os itens da lista
+# filmList.clear()
+# print(filmList)
+

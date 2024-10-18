@@ -161,3 +161,18 @@
 # filmList.clear()
 # print(filmList)
 
+# Observações estrutura TUPLA não tem ordenação, entre outras operaões da lista
+filmListTuple = ("Star Wars", "Marvel", "Rei Leão", "Alladim")
+print(type(filmListTuple))
+
+# 1- Buscar os dois primeiros itens da tupla
+print(filmListTuple[:2])
+
+# 2- Buscar o ultimo item da lista
+print(filmListTuple[-1])
+
+# 3 - Buscar o items de uma posição até uma próxima antes determina posição
+print(filmListTuple[1:3])
+
+# 4 - Buscar item de uma determinada posição e diante
+print(filmListTuple[3:])

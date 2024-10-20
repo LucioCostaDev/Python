@@ -161,18 +161,48 @@
 # filmList.clear()
 # print(filmList)
 
-# Observações estrutura TUPLA não tem ordenação, entre outras operaões da lista
-filmListTuple = ("Star Wars", "Marvel", "Rei Leão", "Alladim")
-print(type(filmListTuple))
+# # Observações estrutura TUPLA não tem ordenação, entre outras operaões da lista
+# filmListTuple = ("Star Wars", "Marvel", "Rei Leão", "Alladim")
+# print(type(filmListTuple))
 
-# 1- Buscar os dois primeiros itens da tupla
-print(filmListTuple[:2])
+# # 1- Buscar os dois primeiros itens da tupla
+# print(filmListTuple[:2])
 
-# 2- Buscar o ultimo item da lista
-print(filmListTuple[-1])
+# # 2- Buscar o ultimo item da lista
+# print(filmListTuple[-1])
 
-# 3 - Buscar o items de uma posição até uma próxima antes determina posição
-print(filmListTuple[1:3])
+# # 3 - Buscar o items de uma posição até uma próxima antes determina posição
+# print(filmListTuple[1:3])
 
-# 4 - Buscar item de uma determinada posição e diante
-print(filmListTuple[3:])
+# # 4 - Buscar item de uma determinada posição e diante
+# print(filmListTuple[3:])
+
+# # 5 - Recuprarar um item da tupla pelo nome
+# print(filmListTuple.index("Marvel"))
+
+# # Estrutura SET obs. cuidado com {} e o correto entre chaves () apenas em tupla
+# filmsSet = {"Star Wars", "Marvel", "Rei Leão", "Alladim"}
+# print(type(filmsSet))
+
+# # 1 - Buscar o tamanho do set
+# print(len(filmsSet))
+
+# # 2 - True e 1 são considerados o mesmo valor
+# exampleSet = {"Marvel", True, 1, 8.7}
+# print(exampleSet)
+
+# # 3 - adiciona item de outro set ou seja faz uma junção
+# filmsSet.update(exampleSet)
+# print(filmsSet)
+
+# # 4 - remove um item no set
+# filmsSet.remove(True)
+# filmsSet.remove(8.7)
+# print(filmsSet)
+
+# Estrutura Dicionario e mais completa e poderosa, e parecido com JASON que uma linguagem utilizado para comunicação de dados, quando aplicação vai conversar com outra, exemplos XML, arquivo de testo, ou mesmo arquivo jason.
+
+filmInception = {
+    "title": "Inception",
+    "yearRealease":
+}

@@ -204,5 +204,8 @@
 
 filmInception = {
     "title": "Inception",
-    "yearRealease":
+    "yearRealease": 2010,
+    "ImdbRating": 8.9,
+    "genre": ["Sci-fi", "Action", "Thriller"]
 }
+

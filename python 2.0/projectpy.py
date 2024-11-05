@@ -206,6 +206,25 @@ filmInception = {
     "title": "Inception",
     "yearRealease": 2010,
     "ImdbRating": 8.9,
-    "genre": ["Sci-fi", "Action", "Thriller"]
+    "genre": ["Sci-fi", "Action", "Thriller"] # estrutura de lista
 }
+print(filmInception)
+print(len(filmInception))
+print((type(filmInception)))
 
+# 1 - Recuperar um elemento do dicionario
+print(filmInception["genre"])
+print(filmInception.get("imdbRating"))
+
+# 2 - Buscar apenas as chaves do dicionário
+print(filmInception.keys())
+
+# 3- Buscar apenas valores do dicionário
+print((filmInception.values()))
+
+# 4 - Bucar itens do dicionario com chave e valor
+print(filmInception.items())
+
+# 5 - Adicionar itens no dicionario
+filmInception["direction"] = "lucio Costa"
+print(filmInception)

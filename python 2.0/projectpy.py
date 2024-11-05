@@ -213,7 +213,7 @@ print(len(filmInception))
 print((type(filmInception)))
 
 # 1 - Recuperar um elemento do dicionario
-print(filmInception["genre"])
+print(filmInception["genre"]\n)
 print(filmInception.get("imdbRating"))
 
 # 2 - Buscar apenas as chaves do dicionário
@@ -227,4 +227,8 @@ print(filmInception.items())
 
 # 5 - Adicionar itens no dicionario
 filmInception["direction"] = "lucio Costa"
+print(filmInception)
+
+# 6 - Atualiizar itens no dicionario
+filmInception.update({"imdbRating": 9.0})
 print(filmInception)

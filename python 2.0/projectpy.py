@@ -242,6 +242,6 @@ filmInception.update({"imdbRating": 9.0})
 print(filmInception)
 print("\n")
 
-# 7 - remove item no diciionario
+# 7 - remove item no dicionario
 filmInception.pop("direction")
 print(filmInception)

@@ -1,14 +1,12 @@
-print("Programa Aprendizado")
-opcao = input("Quer entrar? Sim (s) ou Não(n)")
-if opcao == "s":
-    print("Vamos começar")
-else:
-    print("Até um proxima vez.")
-print("Parabens vamos iniciar seu aprendizado")
-opcao1 = input("Vamos fazer um Quiz? SIM (s) ou Não(n)")
-if opcao1 == "s":
-    print("Quais Materias tema vc quer?")
-else:
-    print("Volte numa  opção.")
+entrada = input("Digite um número: ")
+try:
+    entrada_int = float(entrada)
+    par_impar = entrada_int % 2 == 0
+    par_impar_texto = 'ímpar'
+    if par_impar:
+        par_impar_texto = 'par'
+    print(f'O número {entrada_int} é {par_impar_texto}')
+except:
+    print('Você não digitou um número inteiro')
 
     

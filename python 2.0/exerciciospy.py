@@ -9,4 +9,7 @@ try:
 except:
     print('Você não digitou um número inteiro')
 
+while entrada <= 10:
+    print("olá mundo")
+    entrada =+1
     

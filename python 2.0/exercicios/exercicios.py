@@ -10,3 +10,6 @@ elif numero1 < numero2:
     print(f"{numero1} e menor que numero {numero2}")
 else:
     print("Os dois números são iguais")
+    
+
+print("Descubra se o número e par ou impar")

@@ -1,5 +1,5 @@
-# nome=input("Digite seu Nome: " )
-# print("Nome:", nome)
+nome=input("Digite seu Nome: " )
+print("Nome:", nome)
 
 # s='python'
 # i=4
@@ -106,11 +106,11 @@
 
 # Elaborar um programa Python para verificar se um numero é par ou impar.
 # Verificar se um número é par ou ímpar
-n = int(input("Digite um número:"))
-if n % 2 == 0:
-    print("Par")
-else:
-    print("Impar")
+# n = int(input("Digite um número:"))
+# if n % 2 == 0:
+#     print("Par")
+# else:
+#     print("Impar")
 
 
 
